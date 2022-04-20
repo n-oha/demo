@@ -11,7 +11,5 @@ const empty = () => {
 }
 
 const refresh = () => {
-    setTimeout(() => {
-        location.reload()
-    })
+    window.location.reload()
 }
